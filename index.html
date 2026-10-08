@@ -61,6 +61,7 @@ u{text-decoration:underline}
 .tg .last-odd{grid-column:1/-1;max-width:calc(50% - 20px);margin:0 auto}
 @media (max-width:860px){.tg .last-odd{max-width:100%}}
 
+.tab-img{display:block;width:190px;max-width:100%;height:auto;margin:0 auto 24px;border-radius:8px;box-shadow:0 10px 24px rgba(0,0,0,.25)}
 /* Image placeholders */
 .imgph{background:#f3f3f3;border:2px dashed #b8b8b8;color:#666;font-size:14px;line-height:1.3;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px;margin:0 auto 18px}
 .photo{width:180px;height:240px}
@@ -100,7 +101,7 @@ u{text-decoration:underline}
 .seal{width:130px;height:130px;border-radius:50%;margin:0 auto 14px;border:5px double #c98a3a;background:radial-gradient(circle,#f6e2a4,#c98a3a);display:flex;align-items:center;justify-content:center;font-weight:800;color:#2a1606;text-align:center;line-height:1.05;font-size:17px}
 
 /* Testimonials */
-.av{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;max-width:640px;margin:22px auto 10px;font-family:"Poppins",var(--font);font-weight:300;font-size:14px}
+.av{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;max-width:640px;margin:22px auto 10px;font-family:"Poppins",var(--font);font-weight:300;font-size:14px}
 .thou{font-family:"Poppins",var(--font);font-weight:300;font-size:19px;text-align:center;margin:12px 0 36px}
 .tg{display:grid;grid-template-columns:1fr 1fr;gap:26px 40px;max-width:760px;margin:0 auto}
 .shot{background:#f3f8fb;box-shadow:0 1px 4px rgba(0,0,0,.35);padding:10px;font-family:Roboto,Arial,sans-serif;font-size:12px;line-height:1.4;font-weight:400;color:#333;margin-bottom:10px;text-align:left}
@@ -324,16 +325,14 @@ footer p{max-width:1100px;margin:0 auto 20px;font-size:18px}
     <div><img class="avatar-img" src="reader-photo-03.jpg" alt="Reader" loading="lazy"><span class="ph">[Name]</span></div>
     <div><img class="avatar-img" src="reader-photo-04.jpg" alt="Reader" loading="lazy"><span class="ph">[Name]</span></div>
     <div><img class="avatar-img" src="reader-photo-05.jpg" alt="Reader" loading="lazy"><span class="ph">[Name]</span></div>
-    <!-- Add back once reader-photo-06.jpg is in the folder (and change .av to repeat(6,1fr)):
-    <div><img class="avatar-img" src="reader-photo-06.jpg" alt="Reader" loading="lazy"><span class="ph">[Name]</span></div> -->
+    <div><img class="avatar-img" src="reader-photo-06.jpg" alt="Reader" loading="lazy"><span class="ph">[Name]</span></div>
   </div>
   <p class="thou"><span class="ph">[Only if true: “and [number] more women are using The Wife He Still Desires…”]</span></p>
   <div class="tg">
     <div><div class="shot"><img src="reader-review-01.jpg" alt="Reader review" loading="lazy"></div><div class="tq">“<span class="ph">[Real quote 1]</span>”</div></div>
     <div><div class="shot"><img src="reader-review-02.jpg" alt="Reader review" loading="lazy"></div><div class="tq">“<span class="ph">[Real quote 2]</span>”</div></div>
-    <div class="last-odd"><div class="shot"><img src="reader-review-03.jpg" alt="Reader review" loading="lazy"></div><div class="tq">“<span class="ph">[Real quote 3]</span>”</div></div>
-    <!-- Add back once reader-review-04.jpg is in the folder (and remove class="last-odd" from review 3):
-    <div><div class="shot"><img src="reader-review-04.jpg" alt="Reader review" loading="lazy"></div><div class="tq">“<span class="ph">[Real quote 4]</span>”</div></div> -->
+    <div><div class="shot"><img src="reader-review-03.jpg" alt="Reader review" loading="lazy"></div><div class="tq">“<span class="ph">[Real quote 3]</span>”</div></div>
+    <div><div class="shot"><img src="reader-review-04.jpg" alt="Reader review" loading="lazy"></div><div class="tq">“<span class="ph">[Real quote 4]</span>”</div></div>
   </div>
   <a class="btn w" style="margin-top:44px" href="#checkout">It’s Your Turn!<small>Click here to go to step #2</small></a>
 </section>
@@ -345,12 +344,12 @@ footer p{max-width:1100px;margin:0 auto 20px;font-size:18px}
   <h2 class="big">Here’s Everything You’re Getting When You Get The Wife He Still Desires Today:</h2>
   <img class="mock-img" src="wife-he-still-desires-book-mockup.jpg" alt="The Wife He Still Desires book and five bonus resources" loading="lazy">
   <div class="cards">
-    <div class="card"><div class="tab"><div>The Wife He Still Desires<small>12 chapters. 5 parts. One clear plan.</small></div></div><h3>The Complete Guide</h3><p>The full book: 12 chapters across 5 parts, the Marriage Check-Up, the “Say This, Not That” script bank, the green flags and red flags tracker, and your 30- to 60-day plan, with an appendix on when to seek help.</p></div>
-    <div class="card"><div class="tab"><div>Emergency Rescue Cards<small>For the hardest moments.</small></div></div><h3>The Emergency Rescue Cards</h3><p>For the moment you’re about to panic or say something you’ll regret. Quick, in-the-moment guidance for the hard moment itself.</p></div>
-    <div class="card"><div class="tab"><div>A Letter To Your Husband<small>A short companion.</small></div></div><h3>A Letter To Your Husband</h3><p>For when he won’t talk and your own words feel impossible. A gentle way in that he might actually read.</p></div>
-    <div class="card"><div class="tab"><div>The Connection Kit<small>52 dates. 100 conversation starters.</small></div></div><h3>The Connection Kit</h3><p>For “we never do anything together anymore.” 52 dates and 100 conversation starters to rebuild friendship, one ordinary evening at a time.</p></div>
-    <div class="card"><div class="tab"><div>Scripture And Prayer Companion<small>30 days.</small></div></div><h3>The 30-Day Scripture And Prayer Companion</h3><p>For when you’re running on empty. A month of grounding, encouragement, and prayer to walk beside the plan.</p></div>
-    <div class="card"><div class="tab"><div>The Keep-It-Going Guide<small>What to do after Day 60.</small></div></div><h3>The Keep-It-Going Guide</h3><p>For “what happens after Day 60?” Practical help to keep the momentum, handle setbacks, and make the changes last.</p></div>
+    <div class="card"><img class="tab-img" src="wife-he-still-desires-book-cover.jpg" alt="The Wife He Still Desires, the complete guide" loading="lazy"><h3>The Complete Guide</h3><p>The full book: 12 chapters across 5 parts, the Marriage Check-Up, the “Say This, Not That” script bank, the green flags and red flags tracker, and your 30- to 60-day plan, with an appendix on when to seek help.</p></div>
+    <div class="card"><img class="tab-img" src="emergency-rescue-cards.jpg" alt="The Emergency Rescue Cards" loading="lazy"><h3>The Emergency Rescue Cards</h3><p>For the moment you’re about to panic or say something you’ll regret. Quick, in-the-moment guidance for the hard moment itself.</p></div>
+    <div class="card"><img class="tab-img" src="letter-to-your-husband.jpg" alt="A Letter To Your Husband" loading="lazy"><h3>A Letter To Your Husband</h3><p>For when he won’t talk and your own words feel impossible. A gentle way in that he might actually read.</p></div>
+    <div class="card"><img class="tab-img" src="connection-kit.jpg" alt="The Connection Kit" loading="lazy"><h3>The Connection Kit</h3><p>For “we never do anything together anymore.” 52 dates and 100 conversation starters to rebuild friendship, one ordinary evening at a time.</p></div>
+    <div class="card"><img class="tab-img" src="scripture-prayer-companion.jpg" alt="The 30-Day Scripture And Prayer Companion" loading="lazy"><h3>The 30-Day Scripture And Prayer Companion</h3><p>For when you’re running on empty. A month of grounding, encouragement, and prayer to walk beside the plan.</p></div>
+    <div class="card"><img class="tab-img" src="keep-it-going-guide.jpg" alt="The Keep-It-Going Guide" loading="lazy"><h3>The Keep-It-Going Guide</h3><p>For “what happens after Day 60?” Practical help to keep the momentum, handle setbacks, and make the changes last.</p></div>
   </div>
   <a class="btn w" style="margin-top:40px" href="#checkout">&#10140; Download The Wife He Still Desires<small>Click here to go to step #2</small></a>
 </section>
