@@ -394,5 +394,13 @@ footer p{max-width:1100px;margin:0 auto 20px;font-size:18px}
   <p>This book is for education and encouragement. It is not a substitute for professional counseling, therapy, medical, or legal advice. If you are experiencing abuse, violence, or any threat to your safety, please seek help from a qualified professional or your local emergency services. All stories in the book are composites. Please understand results are not typical. Your results will vary and depend on many factors, including your circumstances, your husband’s choices, and the effort you put in.</p>
 </footer>
 
+<script>
+document.querySelectorAll('a.btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    if (window.fbq) { fbq('track', 'InitiateCheckout'); }
+  });
+});
+</script>
+
 </body>
 </html>
